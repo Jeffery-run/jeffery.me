@@ -1,9 +1,12 @@
 <template>
   <div id="nav">
-    <router-link to="/index">Home</router-link>
+    <Plum></Plum>
   </div>
-  <router-view/>
+  <router-view />
 </template>
+<script setup lang="ts">
+import Plum from "./components/plum";
+</script>
 
 <style lang="less">
 #app {
