@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div>
       note:
     </div>
@@ -11,4 +11,10 @@
 const notes = ["sleep before 10.30"];
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+.container {
+  padding: 0 100px;
+}
+.note {
+}
+</style>
